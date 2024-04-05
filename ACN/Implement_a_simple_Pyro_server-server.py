@@ -10,3 +10,6 @@ ns=Pyro4.locateNS()
 ns.register("myserver", uri)
 print("server ready.")
 daemon.requestLoop()
+
+# python -m Pyro4.naming
+# run server and client
