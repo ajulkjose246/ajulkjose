@@ -27,3 +27,6 @@ ns = Pyro4.locateNS()
 ns.register("calculator", uri)
 print("Server is Ready")
 daemon.requestLoop()
+
+# python -m Pyro4.naming
+# run server and client
